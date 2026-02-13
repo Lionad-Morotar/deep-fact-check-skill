@@ -3,6 +3,7 @@
 ## 执行摘要
 
 **元数据**：
+- 原文链接：https://garymarcus.substack.com/p/promises-are-cheap
 - 原文作者：Gary Marcus (纽约大学心理学与神经科学荣誉教授，AI 评论家)
 - 发布时间：2026年2月12日
 - 核查时间：2026年2月13日
