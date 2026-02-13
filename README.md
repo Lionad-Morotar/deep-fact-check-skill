@@ -10,17 +10,25 @@
 
 查看 [example/gary-marcus-promises-are-cheap.md](./example/gary-marcus-promises-are-cheap.md) 了解完整的深度核查报告样例。
 
-## 使用方法
+## 安装和使用
+
+```bash
+npx skills add Lionad-Morotar/deep-fact-check-skill --agent claude-code
+```
+
+然后在任意 Agent 中输入以下提示：
 
 ```plaintext
 深度核查: https://example.com/article
 ```
 
-或
+如果你的 IDE 不支持 SlashCommand，那么为了获得最可靠的结果，需要提示词前加上前缀，比如：
 
 ```plaintext
-使用 deep-fact-checker 技能，核查这篇文章：[文章内容或链接]
+使用 deep-fact-checker 技能，深度核查这篇文章：https://example.com/article
 ```
+
+这会明确触发技能并确保 AI 遵循文档化的模式。如果不加前缀，技能触发可能不一致，具体取决于你的提示词与技能描述关键词的匹配程度。
 
 ## 核心能力
 
