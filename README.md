@@ -13,7 +13,7 @@
 ## 安装和使用
 
 ```bash
-npx skills add -g https://github.com/Lionad-Morotar/deep-fact-check-skill --agent claude-code
+npx skills add -g Lionad-Morotar/deep-fact-check-skill --agent claude-code
 ```
 
 然后在任意 Agent 中输入以下提示：
