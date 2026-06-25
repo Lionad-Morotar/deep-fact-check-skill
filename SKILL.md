@@ -1,6 +1,7 @@
 ---
 name: deep-fact-check
 description: 执行深度事实核查与认知偏见分析，识别信息操控手法，提供置信度分层评估与可溯源的修正建议。
+argument-hint: <claim or URL>
 disable-model-invocation: true
 ---
 
